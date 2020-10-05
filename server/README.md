@@ -4,8 +4,6 @@ To run this project, please follow this few steps 👇
 
 ## 1️⃣ - Install all needed dependencies
 
----
-
 To be able to install all needed dependencies, please first:
 
 - clone the project into a local folder of yours
@@ -16,9 +14,9 @@ To be able to install all needed dependencies, please first:
 npm install
 ```
 
-## 2️⃣ - Install database
-
 ---
+
+## 2️⃣ - Install database
 
 This project uses [PostgreSQL](https://www.postgresql.org/) so it assumes that you have a minimum knowledge with [SQL](https://sql.sh/) language and be confortable with PostgreSQL.
 
@@ -42,9 +40,9 @@ CREATE DATABASE "itonguedb" OWNER "itongue";
 
 You know have a new database to work with.
 
-## 3️⃣ - Prepare your migrations
-
 ---
+
+## 3️⃣ - Prepare your migrations
 
 To work easily with the database, this project uses [Sqitch](https://sqitch.org/) to manage all migrations. You can follow previous link to install it and learn quickly how to work with it.
 
@@ -58,15 +56,15 @@ To make sure everything is fine, you can run in your terminal the command:
 sqitch deploy
 ```
 
-## 4️⃣ - Prepare your `.env` file
-
 ---
+
+## 4️⃣ - Prepare your `.env` file
 
 You'll need some environment variables to make your project run well. To do so, please refer to the `.env.example` file. You'll need to create your own `.env` file in the same directory and replace the example values by yours.
 
-## 5️⃣ - Run the project
-
 ---
+
+## 5️⃣ - Run the project
 
 You can now run the project using
 
@@ -78,73 +76,67 @@ Enjoy 🚀
 
 ---
 
----
-
----
-
 ## Server technologies
 
----
+This project uses several technologies. You can reach the documentation for any of them following their links below.
 
-This project uses several technologies. You can reach the documentation for any of them following their links.
+---
 
 ### Environment
-
----
 
 - [Node](https://nodejs.org/en/) - JavaScript runtime built on [Chrome's V8 JavaScript engine](https://v8.dev/)
 - [Dotenv](https://www.npmjs.com/package/dotenv) - Loads environment variables from your `.env` file into `process.env`
 - [Cors](http://expressjs.com/en/resources/middleware/cors.html) - Middleware used to enable [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) with various options
 
-### Database and migrations
-
 ---
+
+### Database and migrations
 
 - [Postgresql](https://www.postgresql.org/) - This is your [database management system](https://en.wikipedia.org/wiki/Database#Database_management_system)
 - [Pg](https://www.npmjs.com/package/pg) - Known as a _non-blocking PostgreSQL client for Node.js_, you'll find the official documentation [here](https://node-postgres.com/)
 - [Sqitch](https://sqitch.org/) - Will be your best friend to manage your migrations
 
-### Cache
-
 ---
+
+### Cache
 
 - [Redis](https://redis.io/) - In-memory data structure store
 
-### Server
-
 ---
+
+### Server
 
 - [Express](https://expressjs.com/) - Web framework (v.4)
 
-### Validation
-
 ---
+
+### Validation
 
 - [Express validator](https://express-validator.github.io/docs/) - Middlewares wrapping Validator.js
 
-### Client-Server communication
-
 ---
+
+### Client-Server communication
 
 - [Json Web Token](https://www.npmjs.com/package/jsonwebtoken) - An implementation of JSON Web Tokens.
 - [Socket.io](https://socket.io/) - Provides bi-directional communication channel between a client and a server for the chat system.
 - [Multer](https://www.npmjs.com/package/multer) - Middleware for handling multipart/form-data
 
-### Documentation
-
 ---
+
+### Documentation
 
 - [Swagger](https://swagger.io/) - API documentation management
 
-### Encryption
-
 ---
+
+### Encryption
 
 - [Bcrypt](https://www.npmjs.com/package/bcrypt) - Allow you to hash strings
 
-### Utils
-
 ---
+
+### Utils
 
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Automatically restarting the node application when file changes.
 - [Slugify](https://www.npmjs.com/package/slugify) - Slugify strings
